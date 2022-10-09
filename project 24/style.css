@@ -1,0 +1,42 @@
+body {
+  background: #222;
+  margin: 0;
+}
+
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body main img {
+  width: 300px;
+}
+
+body main p {
+  font-size: x-large;
+  color: white;
+}
+
+body main input,
+body main button {
+  border: thin solid blueviolet;
+  background: transparent;
+  padding: 10px 20px;
+  color: blueviolet;
+  outline: transparent;
+}
+
+body main button {
+  margin: 480px 0 0 140px;
+  position: absolute;
+  transition: all ease 0.7s;
+}
+
+body main button:hover {
+  border: thin solid transparent;
+  background: blueviolet;
+  color: white;
+}
